@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b935add6-c395-4505-ab12-fcdd5665694a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projecteuler/src/Problem1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/ru/alterloki/Util.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/codejam/codejam.iml" afterPath="$PROJECT_DIR$/codejam/codejam.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="solution.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392407357661" ignored="false" />
+    <file path="/Dummy.txt" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392407394628" ignored="false" />
     <file path="/Problem1.java" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392407300219" ignored="false" />
     <file path="/fragment.java" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392407157112" ignored="false" />
     <file path="/Util.java" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392407391579" ignored="false" />
