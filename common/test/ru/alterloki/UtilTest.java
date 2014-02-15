@@ -23,4 +23,10 @@ public class UtilTest {
                 59, 61, 67, 71, 73, 79, 83, 89, 97};
         Assert.assertTrue(Arrays.equals(primes, check));
     }
+
+    @Test
+    public void testRevert() {
+        long a = 4578;
+        Assert.assertEquals(8754, Util.revertNumber(a));
+    }
 }
