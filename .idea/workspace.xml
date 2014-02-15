@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b935add6-c395-4505-ab12-fcdd5665694a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projecteuler/src/Problem4.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/src/ru/alterloki/Util.java" afterPath="$PROJECT_DIR$/common/src/ru/alterloki/Util.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/test/ru/alterloki/UtilTest.java" afterPath="$PROJECT_DIR$/common/test/ru/alterloki/UtilTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projecteuler/src/Problem5.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="solution.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392463932300" ignored="false" />
+    <file path="/Dummy.txt" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392480015650" ignored="false" />
     <file path="/Problem1.java" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392407300219" ignored="false" />
     <file path="/fragment.java" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392409494015" ignored="false" />
     <file path="/Util.java" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392479844816" ignored="false" />
@@ -17,6 +15,7 @@
     <file path="/Problem3.java" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392410980125" ignored="false" />
     <file path="/UtilTest.java" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392479697705" ignored="false" />
     <file path="/Problem4.java" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392479999429" ignored="false" />
+    <file path="/Problem5.java" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392483069857" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <file leaf-file-name="Problem1.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projecteuler/src/Problem1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="3" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
+            <state line="7" column="19" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,10 +130,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Problem4.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Problem4.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projecteuler/src/Problem4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="27" selection-start="783" selection-end="783" vertical-scroll-proportion="0.61139894">
+            <state line="30" column="27" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Problem5.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projecteuler/src/Problem5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="33" selection-start="1530" selection-end="1530" vertical-scroll-proportion="0.9175824">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#645#663#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/util/HashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="123" column="13" selection-start="5260" selection-end="5260" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -165,6 +185,7 @@
         <option value="$PROJECT_DIR$/common/test/ru/alterloki/UtilTest.java" />
         <option value="$PROJECT_DIR$/common/src/ru/alterloki/Util.java" />
         <option value="$PROJECT_DIR$/projecteuler/src/Problem4.java" />
+        <option value="$PROJECT_DIR$/projecteuler/src/Problem5.java" />
       </list>
     </option>
   </component>
@@ -326,23 +347,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Problem4">
-    <configuration default="false" name="Problem2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Problem2" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="projecteuler" />
-      <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.Problem5">
     <configuration default="false" name="UtilTest.testPrimeGenerator" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="common" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -419,6 +424,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="Problem5" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Problem5" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="projecteuler" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -475,19 +502,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Problem2" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UtilTest.testPrimeGenerator" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Problem3" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UtilTest.testRevert" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Problem4" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.UtilTest.testPrimeGenerator" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Problem3" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UtilTest.testRevert" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Problem4" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Problem5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Problem4" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UtilTest.testRevert" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Problem3" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UtilTest.testPrimeGenerator" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Problem2" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Problem5" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Problem4" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UtilTest.testRevert" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Problem3" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UtilTest.testPrimeGenerator" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -576,7 +603,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projecteuler problem 3 solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projecteuler problem 4 solution" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -593,6 +620,7 @@
     <MESSAGE value="Projecteuler problem 1 solution" />
     <MESSAGE value="Projecteuler problem 2 solution" />
     <MESSAGE value="Projecteuler problem 3 solution" />
+    <MESSAGE value="Projecteuler problem 4 solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -637,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projecteuler/src/Problem1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="3" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projecteuler/src/Problem2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="33" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
@@ -681,8 +702,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projecteuler/src/Problem4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="27" selection-start="783" selection-end="783" vertical-scroll-proportion="0.61139894">
+        <state line="30" column="27" selection-start="783" selection-end="783" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-oracle/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="13" selection-start="5260" selection-end="5260" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projecteuler/src/Problem1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="19" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projecteuler/src/Problem5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="33" selection-start="1530" selection-end="1530" vertical-scroll-proportion="0.9175824">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#645#663#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
