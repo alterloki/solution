@@ -67,4 +67,8 @@ public class Util {
         }
         return result;
     }
+
+    public static int charToNumber(char c) {
+        return c - '0';
+    }
 }

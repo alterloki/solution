@@ -29,4 +29,9 @@ public class UtilTest {
         long a = 4578;
         Assert.assertEquals(8754, Util.revertNumber(a));
     }
+
+    @Test
+    public void testCharToNumber() {
+        Assert.assertEquals(Util.charToNumber('7'), 7);
+    }
 }
