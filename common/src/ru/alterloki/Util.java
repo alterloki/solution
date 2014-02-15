@@ -27,7 +27,11 @@ public class Util {
         ArrayList<Integer> primesList = new ArrayList<Integer>();
         for (int j = 2; j < i; j++) {
             boolean isPrime = true;
+            int limit = (int)Math.sqrt(j);
             for (Integer prime : primesList) {
+                if(prime > limit + 1) {
+                    break;
+                }
                 if (j % prime == 0) {
                     isPrime = false;
                     break;
@@ -35,6 +39,9 @@ public class Util {
             }
             if (isPrime) {
                 primesList.add(j);
+            }
+            if(j % 100000 == 0) {
+                System.out.println(j);
             }
         }
         System.out.println("Primes till " + i + " generated.");
