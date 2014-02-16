@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b935add6-c395-4505-ab12-fcdd5665694a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projecteuler/src/Problem11.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="solution.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392546548442" ignored="false" />
+    <file path="/Dummy.txt" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392547868146" ignored="false" />
     <file path="/Problem1.java" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392407300219" ignored="false" />
     <file path="/fragment.java" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392409494015" ignored="false" />
     <file path="/Util.java" changelist="b935add6-c395-4505-ab12-fcdd5665694a" time="1392494138457" ignored="false" />
@@ -174,7 +173,7 @@
       <file leaf-file-name="Problem11.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projecteuler/src/Problem11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="4" selection-start="3382" selection-end="3382" vertical-scroll-proportion="0.8918919">
+            <state line="62" column="4" selection-start="3382" selection-end="3382" vertical-scroll-proportion="0.8951175">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -584,6 +583,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IvyIDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -593,7 +593,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -641,7 +640,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="* Projecteuler problem 9 solution&#10;* Projecteuler problem 10 solution&#10;* prime generator improvement" />
+    <option name="LAST_COMMIT_MESSAGE" value="* Projecteuler started 11 solution" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -664,6 +663,7 @@
     <MESSAGE value="Projecteuler problem 7 solution" />
     <MESSAGE value="Projecteuler problem 8 solution" />
     <MESSAGE value="* Projecteuler problem 9 solution&#10;* Projecteuler problem 10 solution&#10;* prime generator improvement" />
+    <MESSAGE value="* Projecteuler started 11 solution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -778,7 +778,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projecteuler/src/Problem11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="4" selection-start="3382" selection-end="3382" vertical-scroll-proportion="0.8918919">
+        <state line="62" column="4" selection-start="3382" selection-end="3382" vertical-scroll-proportion="0.8951175">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
