@@ -27,9 +27,9 @@ public class Util {
         ArrayList<Integer> primesList = new ArrayList<Integer>();
         for (int j = 2; j < i; j++) {
             boolean isPrime = true;
-            int limit = (int)Math.sqrt(j);
+            int limit = (int) Math.sqrt(j);
             for (Integer prime : primesList) {
-                if(prime > limit + 1) {
+                if (prime > limit + 1) {
                     break;
                 }
                 if (j % prime == 0) {
@@ -40,7 +40,7 @@ public class Util {
             if (isPrime) {
                 primesList.add(j);
             }
-            if(j % 100000 == 0) {
+            if (j % 100000 == 0) {
                 System.out.println(j);
             }
         }
@@ -58,7 +58,7 @@ public class Util {
     }
 
     public static long smallestFactor(long n) {
-        for (long i = 2, end = (long)Math.sqrt(n); i <= end; i++) {
+        for (long i = 2, end = (long) Math.sqrt(n); i <= end; i++) {
             if (n % i == 0)
                 return i;
         }
@@ -67,7 +67,7 @@ public class Util {
 
     public static long revertNumber(long n) {
         long result = 0;
-        while(n > 0) {
+        while (n > 0) {
             result *= 10;
             result += n % 10;
             n = n / 10;
@@ -78,4 +78,20 @@ public class Util {
     public static int charToNumber(char c) {
         return c - '0';
     }
+
+    public static int divisorCount(int number, int[] primes) {
+        int curPrime = 0;
+        int result = 1;
+        while (number > 1 && primes[curPrime] <= number) {
+            int curCount = 0;
+            while (number % primes[curPrime] == 0) {
+                number /= primes[curPrime];
+                curCount++;
+            }
+            result *= (curCount + 1);
+            curPrime++;
+        }
+        return result;
+    }
 }
+

@@ -34,4 +34,10 @@ public class UtilTest {
     public void testCharToNumber() {
         Assert.assertEquals(Util.charToNumber('7'), 7);
     }
+
+    @Test
+    public void divisorCount() {
+        int[] primes = Util.generatePrimes(500);
+        Assert.assertEquals(Util.divisorCount(28, primes), 6);
+    }
 }
