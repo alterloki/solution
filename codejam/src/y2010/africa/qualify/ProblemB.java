@@ -9,6 +9,8 @@ package y2010.africa.qualify;
 import common.ParseUtil;
 
 /**
+ * https://code.google.com/codejam/contest/dashboard?c=351101#s=p1
+ *
  * @author ashevenkov
  */
 public class ProblemB {
