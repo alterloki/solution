@@ -93,5 +93,40 @@ public class Util {
         }
         return result;
     }
+
+    /**
+     * Multiple 2 int matrix 2 x 2
+     *
+     * a1[0][0] a1[0][1]
+     * a1[1][0] a1[1][1]
+     * <p/>
+     * a2[0][0] a2[0][1]
+     * a2[1][0] a2[1][1]
+     * <p/>
+     * a1[0][0] * a2[0][0] + a1[0][1] * a2[1][0], a1[0][0] * a2[0][1] + a1[0][1] * a2[1][1]
+     * a1[1][0] * a2[0][0] + a1[1][1] * a2[1][0], a1[1][0] * a2[0][1] + a1[1][1] * a2[1][1]
+     *
+     * @param a1
+     * @param a2
+     * @return
+     */
+    public static int[][] matrix22Mult(int[][] a1, int[][] a2) {
+        return new int[][]{{a1[0][0] * a2[0][0] + a1[0][1] * a2[1][0], a1[0][0] * a2[0][1] + a1[0][1] * a2[1][1]},
+                {a1[1][0] * a2[0][0] + a1[1][1] * a2[1][0], a1[1][0] * a2[0][1] + a1[1][1] * a2[1][1]}};
+    }
+
+    public static int[][] matrix22Pow(int[][] m, int n) {
+        if(n == 1) {
+            return m.clone();
+        }
+        int[][] result;
+        if(n % 2 == 0) {
+            int[][] m2 = matrix22Pow(m, n/2);
+            result = matrix22Mult(m2, m2);
+        } else {
+            result = matrix22Mult(m, matrix22Pow(m, n - 1));
+        }
+        return result;
+    }
 }
 
