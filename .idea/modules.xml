@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/codejam/codejam.iml" filepath="$PROJECT_DIR$/codejam/codejam.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/projecteuler/projecteuler.iml" filepath="$PROJECT_DIR$/projecteuler/projecteuler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/russian_code_cup_2014_qual1/russian_code_cup_2014_qual1.iml" filepath="$PROJECT_DIR$/russian_code_cup_2014_qual1/russian_code_cup_2014_qual1.iml" />
       <module fileurl="file://$PROJECT_DIR$/topcoder/topcoder.iml" filepath="$PROJECT_DIR$/topcoder/topcoder.iml" />
     </modules>
   </component>

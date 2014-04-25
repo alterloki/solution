@@ -10,11 +10,16 @@ import java.io.*;
  */
 public class ProblemB {
 
+    private static final String INPUT =
+            "1\n" +
+                    "2 3 2 2";
+
     public static void main(String[] args) throws IOException {
-        new ProblemB().fire(System.in);
+        //new ProblemB().fire(System.in);
+        new ProblemB().fire(new StringBufferInputStream(INPUT));
     }
 
-    private void fire(InputStream is) throws IOException {
+    public void fire(InputStream is) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(is));
         String line = br.readLine();
         int count = Integer.parseInt(line);
@@ -30,21 +35,36 @@ public class ProblemB {
     }
 
     private String solve(long x, long y, long k, long t) {
-        if(y == 1) {
+        if (y == 1) {
             return Long.toString(x + t);
         }
-        if(x % y == 0) {
-            x++;
-            t--;
+        long a = x % y;
+        long b = y - a;
+        if (a == 0) {
+            if (t < k) {
+                k = t;
+            }
+            return Long.toString(x + k * y + t - k);
+        } else {
+            long r1;
+            long ka, kb;
+            if (t < k - 1) {
+                ka = t + 1;
+            } else {
+                ka = k;
+            }
+            if(t - b < k) {
+                kb = t - b;
+            } else {
+                kb = k;
+            }
+            if (t > b) {
+                r1 = x + kb * y + t - kb;
+            } else {
+                r1 = x + t;
+            }
+            long r2 = x - a + ka * y + t - ka + 1;
+            return Long.toString(Math.max(r1, r2));
         }
-        if(t < k) {
-            k = t + 1;
-        }
-        long s = (x - x % y) * y;
-        long result = s * y + k * y;
-        if(t >= k) {
-            result = result + (t - k + 1);
-        }
-        return Long.toString(result);
     }
 }
