@@ -18,6 +18,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="codecup" />
+    <orderEntry type="module" module-name="russian_code_cup_2014_qual1" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$TEMPLATE$/projects/solution/lib/testlib4j.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
 

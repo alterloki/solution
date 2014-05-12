@@ -6,7 +6,11 @@
  */
 package ru.alterloki;
 
+import ru.Check;
+import ru.ifmo.testlib.Outcome;
+import ru.ifmo.testlib.io.InputInStream;
 import y2014.r1.ProblemB;
+import y2014.r1.ProblemC;
 
 import java.io.*;
 
@@ -16,9 +20,34 @@ import java.io.*;
 public class CheckCodeCup {
 
     public static void main(String[] args) throws IOException {
-        String dir = "/home/ashevenkov/projects/solution/russian_code_cup_2014_qual1/timer/tests/";
+        //checkByFile("/home/ashevenkov/projects/solution/russian_code_cup_2014_qual1/timer/tests/");
+        checkByChecker("/home/ashevenkov/projects/solution/russian_code_cup_2014_qual1/antilis/tests/", new Check());
+    }
+
+    private static void checkByChecker(String dir, Check check) throws IOException {
         File[] files = new File(dir).listFiles();
-        for (int i = 1; i <= files.length/2; i++) {
+        for (int i = 1; i <= files.length / 2; i++) {
+            String filename = i < 10 ? "0" + i : String.valueOf(i);
+            String inFile = dir + filename;
+            String answerFile = dir + filename + ".a";
+            String myAnswerFile = dir + filename + ".my";
+            BufferedOutputStream myBos = new BufferedOutputStream(new FileOutputStream(myAnswerFile));
+            BufferedInputStream inBis = new BufferedInputStream(new FileInputStream(inFile));
+            //RUN
+            PrintStream oldOut = System.out;
+            System.setOut(new PrintStream(myBos));
+            new ProblemC().fire(inBis);
+            //output
+            myBos.flush();
+            Outcome test = check.test(new InputInStream(new File(inFile)), new InputInStream(new File(myAnswerFile)), new InputInStream(new File(answerFile)));
+            System.setOut(oldOut);
+            System.out.println(test.getType() + " " + test.getComment());
+        }
+    }
+
+    private static void checkByFile(String dir) throws IOException {
+        File[] files = new File(dir).listFiles();
+        for (int i = 1; i <= files.length / 2; i++) {
             String filename = i < 10 ? "0" + i : String.valueOf(i);
             String inFile = dir + filename;
             //RUN
@@ -43,7 +72,7 @@ public class CheckCodeCup {
         String[] p1 = myResult.split("\n");
         String[] p2 = checkResult.split("\n");
         for (int i = 0; i < p1.length; i++) {
-            if(!p1[i].equals(p2[i])) {
+            if (!p1[i].equals(p2[i])) {
                 System.out.println("ERROR:" + i + " my = " + p1[i] + " check = " + p2[i]);
                 return false;
             }
@@ -59,7 +88,7 @@ public class CheckCodeCup {
         while (line != null) {
             sb.append("\n");
             line = br.readLine();
-            if(line != null) {
+            if (line != null) {
                 sb.append(line);
             }
         }

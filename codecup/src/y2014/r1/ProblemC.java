@@ -1,8 +1,7 @@
 package y2014.r1;
 
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Created with IntelliJ IDEA.
@@ -23,7 +22,7 @@ public class ProblemC {
         //new ProblemC().fire(System.in);
     }
 
-    private void fire(InputStream is) throws IOException {
+    public void fire(InputStream is) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(is));
         String line = br.readLine();
         int count = Integer.parseInt(line);
@@ -42,42 +41,26 @@ public class ProblemC {
     }
 
     private String solve(int[] v) {
-        List<List<Integer>> lists = new ArrayList<List<Integer>>();
-        List<Integer> max = new ArrayList<Integer>();
+        List<int[]> positions = new ArrayList<>();
         for (int i = 0; i < v.length; i++) {
-            int num = v[i];
-            if(i == 0) {
-                ArrayList<Integer> l = new ArrayList<Integer>();
-                l.add(i);
-                lists.add(l);
-                max.add(num);
-            } else {
-                boolean needNew = true;
-                for(int j = 0; j < max.size(); j++) {
-                    Integer m = max.get(j);
-                    if(m < num) {
-                        lists.get(j).add(i);
-                        max.set(j, num);
-                        needNew = false;
-                        break;
-                    }
-                }
-                if(needNew) {
-                    max.add(num);
-                    ArrayList<Integer> l = new ArrayList<Integer>();
-                    l.add(i);
-                    lists.add(l);
-                }
-            }
+            int i1 = v[i];
+            positions.add(new int[]{i1, i});
         }
-        long[] result = new long[v.length];
-        int from = 1;
-        for(int i = lists.size() - 1; i >= 0; i--) {
-            List<Integer> positions = lists.get(i);
-            for (Integer position : positions) {
-                result[position] = from;
-                from++;
+        Collections.sort(positions, new Comparator<int[]>() {
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                if(o1[0] > o2[0]) {
+                    return 1;
+                } else if(o1[0] < o2[0]){
+                    return -1;
+                } else {
+                    return o1[1] > o2[1] ? -1 : 1;
+                }
             }
+        });
+        long[] result = new long[v.length];
+        for(int i = 0; i < v.length; i++) {
+            result[positions.get(i)[1]] = i + 1;
         }
         return toString(result);
     }

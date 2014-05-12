@@ -1,111 +1,65 @@
-package srm619.div2;// BEGIN CUT HERE
+package srm144div2;// BEGIN CUT HERE
 /*
 // PROBLEM STATEMENT
-// 
-Shiny wants to give an award to one of the employees in her company.
-However, all her employees are doing perfect work, so it's hard to pick the one that gets the award.
-Therefore Shiny organized a game they will play to determine the winner.
-
-At the beginning of the game, all N employees form a circle.
-Then, they receive t-shirts with numbers 1 through N in clockwise order along the circle.
-These numbers are never used in the game, we will just use them to identify the winner.
-
-The game is played in turns.
-The turns are numbered starting from 1.
-In each turn, Shiny starts by standing in front of some employee (as specified below) and saying "one".
-Then she moves clockwise along the circle to the next employee and says "two".
-And so on, until the number she says reaches the threshold for that particular turn.
-The threshold for turn number t is t^3.
-(That is, the threshold is 1 for turn 1, 8 for turn 2, 27 for turn 3, and so on.)
-
-At the end of each turn, the employee currently standing in front of Shiny (i.e., the one that received the number t^3) is eliminated.
-In the very first round Shiny starts in front of the employee with the number 1 on their t-shirt.
-In each of the following rounds, Shiny starts in front of the next employee clockwise from the one who just got eliminated.
-
-When there is only one employee left in the game, the game ends and the employee wins the award.
-
-You are given the int N.
-Return the t-shirt number of the employee who gets the award.
-
+// Computers tend to store dates and times as single numbers which represent the number of seconds or milliseconds since a particular date.  Your task in this problem is to write a method whatTime, which takes an int, seconds, representing the number of seconds since midnight on some day, and returns a String formatted as "<H>:<M>:<S>".  Here, <H> represents the number of complete hours since midnight, <M> represents the number of complete minutes since the last complete hour ended, and <S> represents the number of seconds since the last complete minute ended.  Each of <H>, <M>, and <S> should be an integer, with no extra leading 0's.  Thus, if seconds is 0, you should return "0:0:0", while if seconds is 3661, you should return "1:1:1".
 
 DEFINITION
-Class:ChooseTheBestOne
-Method:countNumber
+Class:Time
+Method:whatTime
 Parameters:int
-Returns:int
-Method signature:int countNumber(int N)
+Returns:String
+Method signature:String whatTime(int seconds)
 
 
 CONSTRAINTS
--N will between 1 and 5000, inclusive.
+-seconds will be between 0 and 24*60*60 - 1 = 86399, inclusive.
 
 
 EXAMPLES
 
 0)
-3
+0
 
-Returns: 2
-
-In the first round, Shiny stands in front of employee 1, says "one" and eliminates him.
-In the second round, Shiny starts in front of employee 2. She says "one" to employee 2, "two" to
-employee 3, "three" to employee 2 again, ..., and "eight" to employee 3. Thus, employee 3 
-gets eliminated and employee 2 wins the award.
-
+Returns: "0:0:0"
 
 1)
-6
+3661
 
-Returns: 6
-
-
+Returns: "1:1:1"
 
 2)
-10
+5436
 
-Returns: 8
-
-
+Returns: "1:30:36"
 
 3)
-1234
+86399
 
-Returns: 341
-
-
+Returns: "23:59:59"
 
 */
 // END CUT HERE
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class ChooseTheBestOne {
-    public int countNumber(int N) {
-        List<Integer> employees = new ArrayList<Integer>();
-        for(int i = 0; i < N; i++) {
-            employees.add(i + 1);
-        }
-        int current = 0;
-        for(long turn = 1; turn <= N - 1; turn++) {
-            long steps = turn * turn * turn - 1;
-            current += steps % employees.size();
-            current = current % employees.size();
-            employees.remove(current);
-            if(current == employees.size()) {
-                current = 0;
-            }
-        }
-        return employees.iterator().next();
+public class Time {
+    public String whatTime(int seconds) {
+        String res = "";
+        int h = 0;
+        int m = 0;
+        int s = 0;
+        h = seconds / 3600;
+        seconds -= h * 3600;
+        m = seconds / 60;
+        s = seconds - m * 60;
+        return Integer.toString(h) + ":" + Integer.toString(m) + ":" + Integer.toString(s);
     }
 
     // BEGIN CUT HERE
     public static void main(String[] args) {
         try {
-            eq(0, (new ChooseTheBestOne()).countNumber(3), 2);
-            eq(1, (new ChooseTheBestOne()).countNumber(6), 6);
-            eq(2, (new ChooseTheBestOne()).countNumber(10), 8);
-            eq(3, (new ChooseTheBestOne()).countNumber(1234), 341);
+            eq(0, (new Time()).whatTime(0), "0:0:0");
+            eq(1, (new Time()).whatTime(3661), "1:1:1");
+            eq(2, (new Time()).whatTime(5436), "1:30:36");
+            eq(3, (new Time()).whatTime(86399), "23:59:59");
         } catch(Exception exx) {
             System.err.println(exx);
             exx.printStackTrace(System.err);
