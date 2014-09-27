@@ -1,4 +1,4 @@
-// BEGIN CUT HERE
+package srm233div1;// BEGIN CUT HERE
 /*
 // PROBLEM STATEMENT
 // The toy company "I Can't Believe It Works!" has hired you to help develop educational toys.  The current project is a  word toy that displays four letters at all times.  Below each letter are two buttons that cause the letter above to change to the previous or next letter in alphabetical order.  So, with one click of a button the letter 'c' can be changed to a 'b' or a 'd'.  The alphabet is circular, so for example an 'a' can become a 'z' or a 'b' with one click.
@@ -139,7 +139,7 @@ Returns: -1
 
 */
 // END CUT HERE
-
+//TESTED
 import java.util.*;
 
 public class SmartWordToy {
