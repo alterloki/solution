@@ -1,4 +1,4 @@
-// BEGIN CUT HERE
+package srm144div1;// BEGIN CUT HERE
 /*
 // PROBLEM STATEMENT
 // NOTE: There are images in the examples section of this problem statement that help describe the problem. Please view the problem statement in the HTML window to view them.
@@ -122,6 +122,7 @@ Returns: 19
 
 */
 // END CUT HERE
+//TESTED
 import java.util.*;
 public class PenLift {
     public int numTimes(String[] stringSegments, int n) {

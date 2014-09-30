@@ -39,7 +39,7 @@ Returns: "23:59:59"
 
 */
 // END CUT HERE
-
+//TESTED
 public class Time {
     public String whatTime(int seconds) {
         String res = "";

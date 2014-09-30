@@ -74,7 +74,7 @@ Returns: 2500
 // END CUT HERE
 
 import java.util.*;
-
+//TESTED
 public class PowerOutage {
 
     private class Node {

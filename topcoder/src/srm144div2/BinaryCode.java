@@ -86,7 +86,7 @@ Returns: { "01101001101101001101001001001101001",  "1011001011011001011001001001
 
 */
 // END CUT HERE
-
+//TESTED
 public class BinaryCode {
     public String[] decode(String message) {
         String[] res = new String[2];
