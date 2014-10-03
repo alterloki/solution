@@ -1,4 +1,4 @@
-// BEGIN CUT HERE
+package srm145div1;// BEGIN CUT HERE
 /*
 // PROBLEM STATEMENT
 // 
@@ -220,7 +220,7 @@ final:
 // END CUT HERE
 
 import java.util.*;
-
+//TESTED
 public class VendingMachine {
 
     class Pos {
