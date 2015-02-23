@@ -1,4 +1,4 @@
-// BEGIN CUT HERE
+package srm637div2;// BEGIN CUT HERE
 /*
 // PROBLEM STATEMENT
 // Cat Snuke and wolf Sothe are playing the Connecting Game.
@@ -94,6 +94,7 @@ Returns: 14
 */
 // END CUT HERE
 import java.util.*;
+//TESTED
 public class ConnectingGameDiv2 {
 
     private class WeightedCoord implements Comparable<WeightedCoord> {
