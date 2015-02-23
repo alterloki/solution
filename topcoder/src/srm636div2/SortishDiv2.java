@@ -82,6 +82,7 @@ Regardless of how he fills in the gaps, the sortedness of the resulting permutat
 import java.util.ArrayList;
 import java.util.List;
 
+//TESTED
 public class SortishDiv2 {
 
     private class Miss {
