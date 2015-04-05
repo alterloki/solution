@@ -11,6 +11,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
+ * TESTED
  * @author ashevenkov
  */
 public class ProblemC {
