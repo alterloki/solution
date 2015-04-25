@@ -1,4 +1,4 @@
-package srm619.div2;// BEGIN CUT HERE
+package srm619div2;// BEGIN CUT HERE
 /*
 // PROBLEM STATEMENT
 // 
