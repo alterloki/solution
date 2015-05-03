@@ -8,58 +8,73 @@ package y2014.contest.qualify;
 
 import common.ParseUtil;
 
+import java.io.*;
 import java.util.Arrays;
+import java.util.Scanner;
 
 /**
+ * TEST
  * @author ashevenkov
  */
 public class ProblemD {
 
-    static String INPUT =
-            "4\n" +
-                    "1\n" +
-                    "0.5\n" +
-                    "0.6\n" +
-                    "2\n" +
-                    "0.7 0.2\n" +
-                    "0.8 0.3\n" +
-                    "3\n" +
-                    "0.5 0.1 0.9\n" +
-                    "0.6 0.4 0.3\n" +
-                    "9\n" +
-                    "0.186 0.389 0.907 0.832 0.959 0.557 0.300 0.992 0.899\n" +
-                    "0.916 0.728 0.271 0.520 0.700 0.521 0.215 0.341 0.458";
+    public static final String TITLE = "D-large-practice";
+    private static BufferedReader in = prodIn();
+    private static BufferedWriter out = prodOut();
 
-    public static void main(String[] args) {
-        //new ProblemD().run(INPUT);
-        new ProblemD().run(ParseUtil.parseFile("D-large.in"));
+    private static BufferedWriter prodOut() {
+        try {
+            return new BufferedWriter(new FileWriter("codejam/output/" + TITLE + ".out"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
-    private void run(String input) {
-        String[] lines = input.split("\n");
-        int ln = 0;
-        int n = Integer.parseInt(lines[ln++]);
-        for (int i = 0; i < n; i++) {
-            String line = lines[ln++];
-            int count = Integer.parseInt(line);
-            line = lines[ln++];
-            String[] parts = line.split(" ");
-            double[] naomi = new double[parts.length];
-            for (int j = 0; j < naomi.length; j++) {
-                naomi[j] = Double.parseDouble(parts[j]);
-            }
-            line = lines[ln++];
-            parts = line.split(" ");
-            double[] ken = new double[parts.length];
-            for (int j = 0; j < ken.length; j++) {
-                ken[j] = Double.parseDouble(parts[j]);
-            }
-            System.out.println("Case #" + (i + 1) + ": " + solve(count, naomi, ken));
+    private static BufferedReader prodIn() {
+        try {
+            return new BufferedReader(new FileReader("codejam/input/" + TITLE + ".in"));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 
+
+    private static BufferedWriter testOut() {
+        return new BufferedWriter(new OutputStreamWriter(System.out));
+    }
+
+    private static BufferedReader testIn() {
+        return new BufferedReader(new InputStreamReader(System.in));
+    }
+
+    public static void main(String[] args) throws Exception {
+        new ProblemD().solve(in, out);
+        out.flush();
+        out.close();
+    }
+
+    //implement
+    private void solve(BufferedReader in, BufferedWriter out) throws Exception {
+        Scanner scanner = new Scanner(in);
+        int t = scanner.nextInt();
+        for (int i = 0; i < t; i++) {
+            int count = scanner.nextInt();
+            double[] naomi = new double[count];
+            for (int j = 0; j < count; j++) {
+                naomi[j] = Double.parseDouble(scanner.next());
+            }
+            double[] ken = new double[count];
+            for (int j = 0; j < count; j++) {
+                ken[j] = Double.parseDouble(scanner.next());
+            }
+            out.write("Case #" + (i + 1) + ": " + solveCase(count, naomi, ken));
+            out.newLine();
         }
     }
 
-    private String solve(int count, double[] naomi, double[] ken) {
+    private String solveCase(int count, double[] naomi, double[] ken) {
         double[] nc = naomi.clone();
         double[] kc = ken.clone();
         int warResult = warResult(naomi, ken);
