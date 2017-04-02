@@ -15,7 +15,7 @@ public class ProblemB {
                     "2 3 2 2";
 
     public static void main(String[] args) throws IOException {
-        //new ProblemB().fire(System.in);
+        //new y2015.r1.ProblemB().fire(System.in);
         new ProblemB().fire(new StringBufferInputStream(INPUT));
     }
 

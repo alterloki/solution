@@ -20,7 +20,7 @@ public class ProblemD {
 
         public static void main(String[] args) throws IOException {
             new ProblemC().fire(new StringBufferInputStream(INPUT));
-            //new ProblemC().fire(System.in);
+            //new y2015.r1.ProblemC().fire(System.in);
         }
 
         public void fire(InputStream is) throws IOException {

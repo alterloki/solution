@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/codechef/codechef.iml" filepath="$PROJECT_DIR$/codechef/codechef.iml" />
       <module fileurl="file://$PROJECT_DIR$/codecup/codecup.iml" filepath="$PROJECT_DIR$/codecup/codecup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/codeforces/codeforces.iml" filepath="$PROJECT_DIR$/codeforces/codeforces.iml" />
       <module fileurl="file://$PROJECT_DIR$/codejam/codejam.iml" filepath="$PROJECT_DIR$/codejam/codejam.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hackerrank/hackerrank.iml" filepath="$PROJECT_DIR$/hackerrank/hackerrank.iml" />
       <module fileurl="file://$PROJECT_DIR$/projecteuler/projecteuler.iml" filepath="$PROJECT_DIR$/projecteuler/projecteuler.iml" />
-      <module fileurl="file://$PROJECT_DIR$/russian_code_cup_2014_qual1/russian_code_cup_2014_qual1.iml" filepath="$PROJECT_DIR$/russian_code_cup_2014_qual1/russian_code_cup_2014_qual1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/russian-codecup-2016-qual1/russian-codecup-2016-qual1.iml" filepath="$PROJECT_DIR$/russian-codecup-2016-qual1/russian-codecup-2016-qual1.iml" />
       <module fileurl="file://$PROJECT_DIR$/topcoder/topcoder.iml" filepath="$PROJECT_DIR$/topcoder/topcoder.iml" />
     </modules>
   </component>
 </project>
-
