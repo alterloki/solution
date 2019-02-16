@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50f91f17-1602-411f-8c91-0fe7dbb65e29" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeforces/src/train/r539/ProblemA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackerrank/hackerrank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank/hackerrank.iml" afterDir="false" />
     </list>
     <list id="98b8d2c4-0cd3-4c49-b755-d3b876320177" name="New changelist" comment="New changelist" />
     <ignored path="solution.iws" />
@@ -423,27 +420,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bubble.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hackerrank/src/interview/Bubble.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ZeroOne.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hackerrank/src/week31/ZeroOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Problem1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projecteuler/src/Problem1.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -504,14 +480,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UtilTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UtilTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/test/ru/alterloki/UtilTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="2">
               <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProblemA.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codeforces/src/train/r408/ProblemA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProblemA.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/codeforces/src/train/r539/ProblemA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -550,7 +544,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hackerrank/src/thirtydays/DictionariesMaps.java" />
         <option value="$PROJECT_DIR$/hackerrank/src/thirtydays/Recursion.java" />
         <option value="$PROJECT_DIR$/hackerrank/src/thirtydays/BinaryNumbers.java" />
         <option value="$PROJECT_DIR$/hackerrank/src/thirtydays/TwoDArrays.java" />
@@ -601,6 +594,7 @@
         <option value="$PROJECT_DIR$/hackerrank/src/week31/SpanningTree.java" />
         <option value="$PROJECT_DIR$/hackerrank/src/mathematics/ReverseGame.java" />
         <option value="$PROJECT_DIR$/hackerrank/src/mathematics/Handshake.java" />
+        <option value="$PROJECT_DIR$/codeforces/src/train/r539/ProblemA.java" />
       </list>
     </option>
   </component>
@@ -694,12 +688,37 @@
           <expand>
             <path>
               <item name="solution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="codeforces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="solution" type="b2602c69:ProjectViewProjectNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="codeforces" type="462c0819:PsiDirectoryNode" />
+              <item name="codeforces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeforces" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeforces" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeforces" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
+              <item name="r408" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codeforces" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="train" type="462c0819:PsiDirectoryNode" />
+              <item name="r539" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -753,10 +772,6 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/codejam" />
-      <recent name="$PROJECT_DIR$/codejam/input" />
-    </key>
     <key name="IntroduceConstantDialog.RECENTS_KEY">
       <recent name="y2013.contest.qualify.ProblemA" />
     </key>
@@ -764,11 +779,15 @@
       <recent name="ru.alterloki" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="train.r539" />
       <recent name="projecteuler" />
       <recent name="train.r408" />
       <recent name="y2017.contest.qualify" />
       <recent name="y2017r1a" />
-      <recent name="train.r352" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codejam" />
+      <recent name="$PROJECT_DIR$/codejam/input" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1048,7 +1067,7 @@
       <workItem from="1463246627575" duration="66000" />
       <workItem from="1491154383905" duration="75148000" />
       <workItem from="1492459440886" duration="1754000" />
-      <workItem from="1550332804675" duration="274000" />
+      <workItem from="1550332804675" duration="425000" />
     </task>
     <task id="LOCAL-00001" summary="finished y2015 qualify">
       <created>1429985265000</created>
@@ -1106,11 +1125,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491154955295</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Push in middle">
+      <created>1550333110789</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1550333110790</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231901000" />
+    <option name="totallyTimeSpent" value="232052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1118,7 +1144,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.28553617" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.28553617" />
       <window_info id="Palette&#9;" order="2" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -1496,7 +1522,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/codejam/output/B-large.out" />
     <entry file="file://$PROJECT_DIR$/codejam/src/y2017/contest/qualify/ProblemB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1661,13 +1686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codeforces/src/train/r408/ProblemA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/codeforces/src/train/r408/ProblemC.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1793,11 +1811,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/test/ru/alterloki/UtilTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state relative-caret-position="2">
           <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/src/train/r408/ProblemA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeforces/src/train/r539/ProblemA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
         </state>
       </provider>
     </entry>
