@@ -49,9 +49,21 @@ public class ProblemA {
     private void solve(BufferedReader in, BufferedWriter out) throws Exception {
         Scanner scanner = new Scanner(in);
         int n = scanner.nextInt();
-        int m = scanner.nextInt();
-        int k = scanner.nextInt();
+        int v = scanner.nextInt();
+        int result = doSolve(n, v);
+        out.write(Integer.toString(result));
+    }
 
+    private int doSolve(int n, int v) {
+        if(v >= n - 1) {
+            return n - 1;
+        } else {
+            int result = v;
+            for(int i = 2; i <= n - v; i++) {
+                result += i;
+            }
+            return result;
+        }
     }
 
 }
