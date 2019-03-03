@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50f91f17-1602-411f-8c91-0fe7dbb65e29" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/common/small_kager.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/ru/alterloki/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/ru/alterloki/algorithm/Kager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/test/ru/alterloki/GraphTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/src/arrays/NewYearChaos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/src/arrays/TwoDArrayDS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/src/implementation/BonAppetit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/src/implementation/EquilizeTheArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/src/implementation/TaumAndBday.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeforces/src/train/r539/ProblemA.java" beforeDir="false" afterPath="$PROJECT_DIR$/codeforces/src/train/r539/ProblemA.java" afterDir="false" />
-    </list>
     <list id="98b8d2c4-0cd3-4c49-b755-d3b876320177" name="New changelist" comment="New changelist" />
+    <list default="true" id="50f91f17-1602-411f-8c91-0fe7dbb65e29" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/hackerrank/src/arrays/ArrayManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerrank/src/arrays/DynamicArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerrank/src/arrays/LeftRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerrank/src/arrays/SparseArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerrank/src/stack/MaximumElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerrank/src/trees/PreorderTraversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="solution.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -429,47 +425,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Kager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/ru/alterloki/algorithm/Kager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="25" column="111" selection-start-line="25" selection-start-column="111" selection-end-line="25" selection-end-column="111" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaumAndBday.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hackerrank/src/implementation/TaumAndBday.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BonAppetit.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hackerrank/src/implementation/BonAppetit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TwoDArrayDS.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hackerrank/src/arrays/TwoDArrayDS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="210">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -477,23 +437,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewYearChaos.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NewYearChaos.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/hackerrank/src/arrays/NewYearChaos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EquilizeTheArray.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hackerrank/src/implementation/EquilizeTheArray.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -501,38 +449,92 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/ru/alterloki/Graph.java">
+      <file leaf-file-name="DynamicArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hackerrank/src/arrays/DynamicArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="35" column="60" selection-start-line="35" selection-start-column="60" selection-end-line="35" selection-end-column="60" />
+            <state relative-caret-position="150">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GraphTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/test/ru/alterloki/GraphTest.java">
+      <file leaf-file-name="LeftRotation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hackerrank/src/arrays/LeftRotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="225">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Map.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Map.java">
+      <file leaf-file-name="SparseArrays.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hackerrank/src/arrays/SparseArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4500">
-              <caret line="326" column="9" selection-start-line="326" selection-start-column="9" selection-end-line="326" selection-end-column="9" />
+            <state relative-caret-position="345">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
+      <file leaf-file-name="ArrayManipulation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hackerrank/src/arrays/ArrayManipulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3960">
-              <caret line="287" column="12" selection-start-line="287" selection-start-column="12" selection-end-line="287" selection-end-column="12" />
+            <state relative-caret-position="236">
+              <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreorderTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hackerrank/src/trees/PreorderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumElement.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/hackerrank/src/stack/MaximumElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FillingJars.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hackerrank/src/warmup/FillingJars.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntConsumer.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/IntConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -562,12 +564,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hackerrank/src/thirtydays/Sorting.java" />
-        <option value="$PROJECT_DIR$/hackerrank/src/thirtydays/Generics.java" />
-        <option value="$PROJECT_DIR$/hackerrank/src/thirtydays/BinarySearchTrees.java" />
-        <option value="$PROJECT_DIR$/hackerrank/src/thirtydays/BST.java" />
-        <option value="$PROJECT_DIR$/codejam/src/y2017/contest/qualify/ProblemA.java" />
-        <option value="$PROJECT_DIR$/codejam/src/y2017/contest/qualify/ProblemB.java" />
         <option value="$PROJECT_DIR$/codejam/src/y2017/contest/qualify/ProblemC.java" />
         <option value="$PROJECT_DIR$/codejam/src/y2017/contest/qualify/ProblemD.java" />
         <option value="$PROJECT_DIR$/hackerrank/src/thirtydays/MoreLList.java" />
@@ -613,6 +609,12 @@
         <option value="$PROJECT_DIR$/hackerrank/src/implementation/BonAppetit.java" />
         <option value="$PROJECT_DIR$/hackerrank/src/arrays/TwoDArrayDS.java" />
         <option value="$PROJECT_DIR$/hackerrank/src/arrays/NewYearChaos.java" />
+        <option value="$PROJECT_DIR$/hackerrank/src/arrays/DynamicArray.java" />
+        <option value="$PROJECT_DIR$/hackerrank/src/arrays/LeftRotation.java" />
+        <option value="$PROJECT_DIR$/hackerrank/src/arrays/SparseArrays.java" />
+        <option value="$PROJECT_DIR$/hackerrank/src/arrays/ArrayManipulation.java" />
+        <option value="$PROJECT_DIR$/hackerrank/src/trees/PreorderTraversal.java" />
+        <option value="$PROJECT_DIR$/hackerrank/src/stack/MaximumElement.java" />
       </list>
     </option>
   </component>
@@ -697,6 +699,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -713,13 +716,24 @@
               <item name="solution" type="b2602c69:ProjectViewProjectNode" />
               <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="trees" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackerrank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="warmup" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -800,34 +814,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NewYearChaos">
+  <component name="RunManager" selected="Application.MaximumElement">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="EquilizeTheArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="implementation.EquilizeTheArray" />
-      <module name="hackerrank" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="implementation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Kager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.alterloki.algorithm.Kager" />
-      <module name="common" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.alterloki.algorithm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="NewYearChaos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.NewYearChaos" />
+    <configuration name="ArrayManipulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.ArrayManipulation" />
       <module name="hackerrank" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -837,13 +829,35 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ProblemA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="train.r539.ProblemA" />
-      <module name="codeforces" />
+    <configuration name="LeftRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.LeftRotation" />
+      <module name="hackerrank" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="train.r539.*" />
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MaximumElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stack.MaximumElement" />
+      <module name="hackerrank" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PreorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trees.PreorderTraversal" />
+      <module name="hackerrank" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -865,6 +879,17 @@
       <option name="PROGRAM_PARAMETERS" value="Check tests/01 tests/01.r tests/01.a" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/russian-codecup-2016-qual1/a" />
     </configuration>
+    <configuration name="SparseArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays.SparseArrays" />
+      <module name="hackerrank" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -876,29 +901,6 @@
       <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-    </configuration>
-    <configuration name="GraphTest.testMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ru.alterloki.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="ru.alterloki" />
-      <option name="MAIN_CLASS_NAME" value="ru.alterloki.GraphTest" />
-      <option name="METHOD_NAME" value="testMerge" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1013,19 +1015,19 @@
     <list>
       <item itemvalue="Application.Run test" />
       <item itemvalue="Application.ProblemB" />
-      <item itemvalue="Application.ProblemA" />
-      <item itemvalue="Application.EquilizeTheArray" />
-      <item itemvalue="Application.Kager" />
-      <item itemvalue="JUnit.GraphTest.testMerge" />
-      <item itemvalue="Application.NewYearChaos" />
+      <item itemvalue="Application.LeftRotation" />
+      <item itemvalue="Application.SparseArrays" />
+      <item itemvalue="Application.ArrayManipulation" />
+      <item itemvalue="Application.PreorderTraversal" />
+      <item itemvalue="Application.MaximumElement" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NewYearChaos" />
-        <item itemvalue="Application.Kager" />
-        <item itemvalue="JUnit.GraphTest.testMerge" />
-        <item itemvalue="Application.EquilizeTheArray" />
-        <item itemvalue="Application.ProblemA" />
+        <item itemvalue="Application.MaximumElement" />
+        <item itemvalue="Application.PreorderTraversal" />
+        <item itemvalue="Application.ArrayManipulation" />
+        <item itemvalue="Application.SparseArrays" />
+        <item itemvalue="Application.LeftRotation" />
       </list>
     </recent_temporary>
   </component>
@@ -1079,7 +1081,10 @@
       <workItem from="1492459440886" duration="1754000" />
       <workItem from="1550332804675" duration="6937000" />
       <workItem from="1550471777390" duration="14216000" />
-      <workItem from="1550644408355" duration="7847000" />
+      <workItem from="1550644408355" duration="9233000" />
+      <workItem from="1550938593801" duration="105000" />
+      <workItem from="1551163176851" duration="695000" />
+      <workItem from="1551620601964" duration="2906000" />
     </task>
     <task id="LOCAL-00001" summary="finished y2015 qualify">
       <created>1429985265000</created>
@@ -1151,7 +1156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550333255572</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="New problems">
+      <created>1550908759821</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1550908759828</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1187,7 +1199,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="260627000" />
+    <option name="totallyTimeSpent" value="265719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1202,19 +1214,19 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50277776" side_tool="true" weight="0.3270809" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49722221" visible="true" weight="0.33291772" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282532" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49722221" visible="true" weight="0.33291772" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8640898" visible="true" weight="0.27825466" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8640898" visible="true" weight="0.28898427" />
       <window_info anchor="right" id="Database" order="2" weight="0.32967743" />
       <window_info id="Structure" order="1" sideWeight="0.4925187" side_tool="true" weight="0.27825466" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info id="Favorites" order="2" sideWeight="0.13591023" side_tool="true" weight="0.27825466" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49722221" weight="0.4276808" />
+      <window_info id="Favorites" order="2" sideWeight="0.13591023" side_tool="true" weight="0.27825466" />
       <window_info anchor="right" id="JetGradle" order="4" sideWeight="0.680261" weight="0.32978722" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1243,7 +1255,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="srm145div1 whole" />
     <MESSAGE value="srm634div2 whole" />
     <MESSAGE value="srm633div2 whole" />
     <MESSAGE value="srm632div2 whole" />
@@ -1268,7 +1279,8 @@
     <MESSAGE value="Solved codecup 2016 r1a ProblemB" />
     <MESSAGE value="Push in middle" />
     <MESSAGE value="Prepare" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare" />
+    <MESSAGE value="New problems" />
+    <option name="LAST_COMMIT_MESSAGE" value="New problems" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1556,12 +1568,6 @@
           <properties />
           <option name="timeStamp" value="148" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/hackerrank/src/arrays/NewYearChaos.java</url>
-          <line>9</line>
-          <properties />
-          <option name="timeStamp" value="177" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1579,50 +1585,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hackerrank/src/mathematics/ConnectingTowns.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerrank/src/week31/BeautifulWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerrank/src/interview/LeftRotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerrank/src/interview/MakingAnagrams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerrank/src/interview/RansomNote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Queue.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Scanner.java" />
-    <entry file="file://$PROJECT_DIR$/hackerrank/src/interview/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Stack.java" />
     <entry file="file://$PROJECT_DIR$/hackerrank/src/interview/BalancedBrackets.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1776,9 +1738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2">
           <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1882,7 +1841,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/ru/alterloki/algorithm/Kager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="315">
           <caret line="25" column="111" selection-start-line="25" selection-start-column="111" selection-end-line="25" selection-end-column="111" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1902,8 +1861,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hackerrank/src/implementation/TaumAndBday.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="330">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1912,8 +1871,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hackerrank/src/implementation/BonAppetit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="255">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1922,8 +1881,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hackerrank/src/arrays/TwoDArrayDS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        <state relative-caret-position="210">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1932,8 +1891,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hackerrank/src/arrays/NewYearChaos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="270">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/IntConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerrank/src/arrays/DynamicArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerrank/src/arrays/LeftRotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerrank/src/arrays/SparseArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerrank/src/arrays/ArrayManipulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerrank/src/warmup/FillingJars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerrank/src/trees/PreorderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerrank/src/stack/MaximumElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="50" column="45" selection-start-line="50" selection-start-column="45" selection-end-line="50" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
