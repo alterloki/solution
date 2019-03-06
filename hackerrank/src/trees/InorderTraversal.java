@@ -1,27 +1,8 @@
 package trees;
 
-import java.util.*;
+import java.util.Scanner;
 
-
-public class PreorderTraversal {
-
-    public static void preOrder(Node root) {
-        StringBuilder sb = new StringBuilder();
-        doPreorder(root, sb);
-        String s = sb.toString();
-        System.out.println(s.substring(0, s.length() - 1));
-    }
-
-    private static void doPreorder(Node root, StringBuilder sb) {
-        sb.append(root.data).append(" ");
-        if(root.left != null) {
-            doPreorder(root.left, sb);
-        }
-        if(root.right != null) {
-            doPreorder(root.right, sb);
-        }
-    }
-
+public class InorderTraversal {
     static class Node {
         Node left;
         Node right;
@@ -31,6 +12,23 @@ public class PreorderTraversal {
             this.data = data;
             left = null;
             right = null;
+        }
+    }
+
+    public static void inOrder(Node root) {
+        StringBuilder sb = new StringBuilder();
+        doInorder(root, sb);
+        String s = sb.toString();
+        System.out.println(s.substring(0, s.length() - 1));
+    }
+
+    private static void doInorder(Node root, StringBuilder sb) {
+        if(root.left != null) {
+            doInorder(root.left, sb);
+        }
+        sb.append(root.data).append(" ");
+        if(root.right != null) {
+            doInorder(root.right, sb);
         }
     }
 
@@ -59,6 +57,6 @@ public class PreorderTraversal {
             root = insert(root, data);
         }
         scan.close();
-        preOrder(root);
+        inOrder(root);
     }
 }
