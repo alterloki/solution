@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list id="98b8d2c4-0cd3-4c49-b755-d3b876320177" name="New changelist" comment="New changelist" />
     <list default="true" id="50f91f17-1602-411f-8c91-0fe7dbb65e29" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/ru/alterloki/algorithm/Dijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/src/trees/HeightBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codejam/src/y2018/contest/qualify/ProblemA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerrank/src/trees/LevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hackerrank/src/trees/TopView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <list id="98b8d2c4-0cd3-4c49-b755-d3b876320177" name="New changelist" comment="New changelist" />
     <ignored path="solution.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -421,57 +422,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PreorderTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hackerrank/src/trees/PreorderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SCC.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/src/ru/alterloki/algorithm/SCC.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostorderTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hackerrank/src/trees/PostorderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="62" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="62" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InorderTraversal.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hackerrank/src/trees/InorderTraversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HeightBinaryTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hackerrank/src/trees/HeightBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Kager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/ru/alterloki/algorithm/Kager.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -484,7 +434,7 @@
       <file leaf-file-name="TreeMap.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1792">
+            <state relative-caret-position="1800">
               <caret line="146" column="11" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
               <folding>
                 <element signature="e#5776#5777#0" expanded="true" />
@@ -494,31 +444,67 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Dijkstra.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Dijkstra.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/src/ru/alterloki/algorithm/Dijkstra.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-310">
-              <caret line="160" column="14" selection-start-line="160" selection-start-column="14" selection-end-line="160" selection-end-column="14" />
+            <state relative-caret-position="270">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#721#722#0" expanded="true" />
                 <element signature="e#800#801#0" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#1018#1019#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
-                <element signature="e#1158#1159#0" expanded="true" />
-                <element signature="e#1202#1203#0" expanded="true" />
-                <element signature="e#1246#1247#0" expanded="true" />
-                <element signature="e#1291#1292#0" expanded="true" />
-                <element signature="e#1335#1336#0" expanded="true" />
-                <element signature="e#1893#1894#0" expanded="true" />
-                <element signature="e#1935#1936#0" expanded="true" />
-                <element signature="e#3459#3460#0" expanded="true" />
-                <element signature="e#3492#3493#0" expanded="true" />
-                <element signature="e#3025#3031#0" expanded="true" />
+                <element signature="e#878#879#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TopView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hackerrank/src/trees/TopView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LevelOrderTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hackerrank/src/trees/LevelOrderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProblemA.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/codejam/src/y2018/contest/qualify/ProblemA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scanner.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Scanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="1642" column="18" selection-start-line="1642" selection-start-column="18" selection-end-line="1642" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Queue.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -526,7 +512,7 @@
       <file leaf-file-name="List.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
+            <state relative-caret-position="8835">
               <caret line="612" column="9" selection-start-line="612" selection-start-column="9" selection-end-line="612" selection-end-column="9" />
             </state>
           </provider>
@@ -535,7 +521,7 @@
       <file leaf-file-name="AbstractQueue.java" pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/AbstractQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="1170">
               <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
             </state>
           </provider>
@@ -571,9 +557,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hackerrank/src/mathematics/ConnectingTowns.java" />
-        <option value="$PROJECT_DIR$/hackerrank/src/week31/BeautifulWord.java" />
-        <option value="$PROJECT_DIR$/hackerrank/src/interview/LeftRotation.java" />
         <option value="$PROJECT_DIR$/hackerrank/src/interview/MakingAnagrams.java" />
         <option value="$PROJECT_DIR$/hackerrank/src/interview/RansomNote.java" />
         <option value="$PROJECT_DIR$/hackerrank/src/interview/BinarySearchTree.java" />
@@ -622,6 +605,9 @@
         <option value="$PROJECT_DIR$/hackerrank/src/trees/InorderTraversal.java" />
         <option value="$PROJECT_DIR$/hackerrank/src/trees/HeightBinaryTree.java" />
         <option value="$PROJECT_DIR$/common/src/ru/alterloki/algorithm/Dijkstra.java" />
+        <option value="$PROJECT_DIR$/hackerrank/src/trees/TopView.java" />
+        <option value="$PROJECT_DIR$/hackerrank/src/trees/LevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/codejam/src/y2018/contest/qualify/ProblemA.java" />
       </list>
     </option>
   </component>
@@ -708,9 +694,31 @@
     <panes>
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="qualify" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solution" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codejam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="qualify" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="solution" type="b2602c69:ProjectViewProjectNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
@@ -719,7 +727,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -765,25 +772,25 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/common" />
-    </key>
     <key name="IntroduceConstantDialog.RECENTS_KEY">
       <recent name="y2013.contest.qualify.ProblemA" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/codejam" />
+      <recent name="$PROJECT_DIR$/codejam/input" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="ru.alterloki" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="y2018.contest.qualify" />
       <recent name="train.r539" />
       <recent name="projecteuler" />
       <recent name="train.r408" />
       <recent name="y2017.contest.qualify" />
-      <recent name="y2017r1a" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/codejam" />
-      <recent name="$PROJECT_DIR$/codejam/input" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -798,7 +805,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Dijkstra">
+  <component name="RunManager" selected="Application.ProblemA">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -824,8 +831,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="InorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trees.InorderTraversal" />
+    <configuration name="LevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trees.LevelOrderTraversal" />
       <module name="hackerrank" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -835,13 +842,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="PostorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="trees.PostorderTraversal" />
-      <module name="hackerrank" />
+    <configuration name="ProblemA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="y2018.contest.qualify.ProblemA" />
+      <module name="codejam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="trees.*" />
+          <option name="PATTERN" value="y2018.contest.qualify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -863,14 +870,13 @@
       <option name="PROGRAM_PARAMETERS" value="Check tests/01 tests/01.r tests/01.a" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/russian-codecup-2016-qual1/a" />
     </configuration>
-    <configuration name="SCC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ru.alterloki.algorithm.SCC" />
-      <module name="common" />
-      <option name="VM_PARAMETERS" value="-Xss64m" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <configuration name="TopView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trees.TopView" />
+      <module name="hackerrank" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ru.alterloki.algorithm.*" />
+          <option name="PATTERN" value="trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1000,19 +1006,19 @@
     <list>
       <item itemvalue="Application.Run test" />
       <item itemvalue="Application.ProblemB" />
-      <item itemvalue="Application.SCC" />
-      <item itemvalue="Application.PostorderTraversal" />
-      <item itemvalue="Application.InorderTraversal" />
       <item itemvalue="Application.HeightBinaryTree" />
       <item itemvalue="Application.Dijkstra" />
+      <item itemvalue="Application.TopView" />
+      <item itemvalue="Application.LevelOrderTraversal" />
+      <item itemvalue="Application.ProblemA" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProblemA" />
+        <item itemvalue="Application.LevelOrderTraversal" />
+        <item itemvalue="Application.TopView" />
         <item itemvalue="Application.Dijkstra" />
         <item itemvalue="Application.HeightBinaryTree" />
-        <item itemvalue="Application.InorderTraversal" />
-        <item itemvalue="Application.PostorderTraversal" />
-        <item itemvalue="Application.SCC" />
       </list>
     </recent_temporary>
   </component>
@@ -1071,7 +1077,9 @@
       <workItem from="1551163176851" duration="695000" />
       <workItem from="1551620601964" duration="9418000" />
       <workItem from="1551764165197" duration="1253000" />
-      <workItem from="1552035292333" duration="8780000" />
+      <workItem from="1552035292333" duration="10351000" />
+      <workItem from="1552304404118" duration="14000" />
+      <workItem from="1552468499086" duration="4486000" />
     </task>
     <task id="LOCAL-00001" summary="finished y2015 qualify">
       <created>1429985265000</created>
@@ -1164,7 +1172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1551895901862</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="New problems">
+      <created>1552229415416</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1552229415416</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1200,7 +1215,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282264000" />
+    <option name="totallyTimeSpent" value="288335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1215,23 +1230,23 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50277776" side_tool="true" weight="0.3270809" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49722221" visible="true" weight="0.33291772" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3282532" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49722221" visible="true" weight="0.33291772" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="3" />
       <window_info anchor="right" id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8640898" visible="true" weight="0.29756796" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8640898" visible="true" weight="0.30615166" />
       <window_info anchor="right" id="Database" order="2" weight="0.32967743" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3254364" />
       <window_info id="Structure" order="1" sideWeight="0.4925187" side_tool="true" weight="0.27825466" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49722221" weight="0.4276808" />
       <window_info id="Favorites" order="2" sideWeight="0.13591023" side_tool="true" weight="0.27825466" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49722221" weight="0.4276808" />
       <window_info anchor="right" id="JetGradle" order="4" sideWeight="0.680261" weight="0.32978722" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3254364" />
       <window_info anchor="bottom" id="Changes" order="7" weight="0.32952693" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="7" side_tool="true" weight="0.3298611" />
@@ -1581,11 +1596,23 @@
           <properties />
           <option name="timeStamp" value="192" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/hackerrank/src/trees/TopView.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/y2018/contest/qualify/ProblemA.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="195" />
+      <option name="time" value="200" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1598,28 +1625,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_40.jdk/Contents/Home/src.zip!/java/util/Comparator.java" />
-    <entry file="file://$PROJECT_DIR$/hackerrank/src/interview/RunningMedian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="69" selection-start-line="20" selection-start-column="69" selection-end-line="20" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerrank/src/interview/ComparatorSolution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hackerrank/src/interview/Bubble.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hackerrank/src/week31/ZeroOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
@@ -1742,13 +1747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23715">
-          <caret line="1642" column="18" selection-start-line="1642" selection-start-column="18" selection-end-line="1642" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1916,14 +1914,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hackerrank/src/trees/InorderTraversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
+        <state relative-caret-position="510">
           <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hackerrank/src/trees/HeightBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="210">
           <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
         </state>
       </provider>
@@ -1937,14 +1935,14 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/AbstractQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="1170">
           <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/TreeMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1792">
+        <state relative-caret-position="1800">
           <caret line="146" column="11" selection-start-line="146" selection-start-column="11" selection-end-line="146" selection-end-column="11" />
           <folding>
             <element signature="e#5776#5777#0" expanded="true" />
@@ -1957,43 +1955,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-8280">
           <caret line="148" column="11" selection-start-line="148" selection-start-column="11" selection-end-line="148" selection-end-column="11" />
-          <folding>
-            <element signature="e#5354#5355#0" expanded="true" />
-            <element signature="e#5412#5413#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
+        <state relative-caret-position="8835">
           <caret line="612" column="9" selection-start-line="612" selection-start-column="9" selection-end-line="612" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/src/ru/alterloki/algorithm/Dijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-310">
-          <caret line="160" column="14" selection-start-line="160" selection-start-column="14" selection-end-line="160" selection-end-column="14" />
+        <state relative-caret-position="270">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
             <element signature="e#800#801#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#1018#1019#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1246#1247#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1335#1336#0" expanded="true" />
-            <element signature="e#1893#1894#0" expanded="true" />
-            <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#3459#3460#0" expanded="true" />
-            <element signature="e#3492#3493#0" expanded="true" />
-            <element signature="e#3025#3031#0" expanded="true" />
+            <element signature="e#878#879#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerrank/src/trees/TopView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="192" column="6" selection-start-line="192" selection-start-column="6" selection-end-line="192" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hackerrank/src/trees/LevelOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="20" column="46" lean-forward="true" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="1642" column="18" selection-start-line="1642" selection-start-column="18" selection-end-line="1642" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codejam/src/y2018/contest/qualify/ProblemA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
