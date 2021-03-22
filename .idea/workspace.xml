@@ -6,14 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50f91f17-1602-411f-8c91-0fe7dbb65e29" name="Default" comment="Test">
-      <change afterPath="$PROJECT_DIR$/codejam/src/y2020/contest/qualify/NestingDepth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codejam/src/y2020/contest/qualify/Vestigum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/src/heap/FindRunningMedian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hackerrank/src/heap/JesseAndCookies.java" afterDir="false" />
+    <list default="true" id="50f91f17-1602-411f-8c91-0fe7dbb65e29" name="Default" comment="Practice 2021">
+      <change afterPath="$PROJECT_DIR$/codejam/src/y2020/contest/qualify/Parenting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackerrank/src/heap/QHeap1.java" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank/src/heap/QHeap1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hackerrank/src/stack/SimpleTextEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank/src/stack/SimpleTextEditor.java" afterDir="false" />
     </list>
     <list id="98b8d2c4-0cd3-4c49-b755-d3b876320177" name="New changelist" comment="New changelist" />
     <option name="SHOW_DIALOG" value="false" />
@@ -725,7 +720,7 @@
       <recent name="$PROJECT_DIR$/common" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NestingDepth">
+  <component name="RunManager" selected="Application.Parenting">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -826,13 +821,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProblemB" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="train.r350.ProblemB" />
-      <module name="codeforces" />
+    <configuration name="Parenting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="y2020.contest.qualify.Parenting" />
+      <module name="codejam" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="train.r350.*" />
+          <option name="PATTERN" value="y2020.contest.qualify.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -840,13 +835,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QHeap1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="heap.QHeap1" />
-      <module name="hackerrank" />
+    <configuration name="ProblemB" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="train.r350.ProblemB" />
+      <module name="codeforces" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="heap.*" />
+          <option name="PATTERN" value="train.r350.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -947,19 +942,19 @@
     <list>
       <item itemvalue="Application.Run test" />
       <item itemvalue="Application.ProblemB" />
-      <item itemvalue="Application.QHeap1" />
       <item itemvalue="Application.JesseAndCookies" />
       <item itemvalue="Application.FindRunningMedian" />
       <item itemvalue="Application.Vestigum" />
       <item itemvalue="Application.NestingDepth" />
+      <item itemvalue="Application.Parenting" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Parenting" />
         <item itemvalue="Application.NestingDepth" />
         <item itemvalue="Application.Vestigum" />
         <item itemvalue="Application.FindRunningMedian" />
         <item itemvalue="Application.JesseAndCookies" />
-        <item itemvalue="Application.QHeap1" />
       </list>
     </recent_temporary>
   </component>
@@ -1046,7 +1041,7 @@
       <workItem from="1614245095225" duration="489000" />
       <workItem from="1614839468455" duration="231000" />
       <workItem from="1614839866378" duration="852000" />
-      <workItem from="1615905391315" duration="5035000" />
+      <workItem from="1615905391315" duration="9026000" />
     </task>
     <task id="LOCAL-00001" summary="finished y2015 qualify">
       <created>1429985265000</created>
@@ -1174,7 +1169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614840325115</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Practice 2021">
+      <created>1616395460042</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1616395460043</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1263,7 +1265,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="srm631div2 whole" />
     <MESSAGE value="srm637div2 whole" />
     <MESSAGE value="added hackerrank" />
     <MESSAGE value="new solutions from warmup" />
@@ -1288,7 +1289,8 @@
     <MESSAGE value="Finished next solutions" />
     <MESSAGE value="Finished next solution" />
     <MESSAGE value="Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test" />
+    <MESSAGE value="Practice 2021" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice 2021" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1569,8 +1571,23 @@
           <line>13</line>
           <option name="timeStamp" value="226" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/y2020/contest/qualify/Parenting.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/codejam/src/y2020/contest/qualify/Parenting.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="minutes.get(1000)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
