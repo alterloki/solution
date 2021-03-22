@@ -16,7 +16,7 @@ public class QHeap1 {
             line = br.readLine();
             String[] parts = line.split(" ");
             if(parts[0].equals("1")) {
-                int v = Integer.parseInt(parts[1]);
+                 int v = Integer.parseInt(parts[1]);
                 heap.add(v);
             } else if(parts[0].equals("2")) {
                 int v = Integer.parseInt(parts[1]);

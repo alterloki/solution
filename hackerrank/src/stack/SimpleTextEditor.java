@@ -1,6 +1,9 @@
 package stack;
 
 import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 
 public class SimpleTextEditor {
@@ -14,6 +17,7 @@ public class SimpleTextEditor {
     private void solve(Scanner scanner, BufferedWriter out) throws IOException {
         int q = scanner.nextInt();
         String s = "";
+
         for(int i = 0; i < q; i++) {
             int type = scanner.nextInt();
             switch (type) {
